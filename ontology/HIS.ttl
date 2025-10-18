@@ -1,12 +1,12 @@
-@prefix : <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS#> .
+@prefix : <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS#> .
+@base <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS#> .
 
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS> rdf:type owl:Ontology .
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS> rdf:type owl:Ontology .
 
 #################################################################
 #    Annotation properties
@@ -28,89 +28,89 @@
 #    Object Properties
 #################################################################
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/addresses
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/addresses> rdf:type owl:ObjectProperty ;
-                                                                                          owl:inverseOf <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isAddressedBy> ;
-                                                                                          rdfs:domain <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Benefit> ;
-                                                                                          rdfs:range <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Drawback> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/addresses
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/addresses> rdf:type owl:ObjectProperty ;
+                                                                                          owl:inverseOf <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAddressedBy> ;
+                                                                                          rdfs:domain <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Benefit> ;
+                                                                                          rdfs:range <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/combinesInto
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/combinesInto> rdf:type owl:ObjectProperty ;
-                                                                                             owl:inverseOf <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isComposedOf> ;
-                                                                                             rdfs:domain <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethod> ;
-                                                                                             rdfs:range <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/TypeOfAIMethodCombination> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/combinesInto
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/combinesInto> rdf:type owl:ObjectProperty ;
+                                                                                             owl:inverseOf <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isComposedOf> ;
+                                                                                             rdfs:domain <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod> ;
+                                                                                             rdfs:range <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/hasBenefit
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/hasBenefit> rdf:type owl:ObjectProperty ;
-                                                                                           owl:inverseOf <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isBenefitOf> ;
-                                                                                           rdfs:domain <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Method> ;
-                                                                                           rdfs:range <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Benefit> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasBenefit
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasBenefit> rdf:type owl:ObjectProperty ;
+                                                                                           owl:inverseOf <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isBenefitOf> ;
+                                                                                           rdfs:domain <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Method> ;
+                                                                                           rdfs:range <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Benefit> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/hasDrawback
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/hasDrawback> rdf:type owl:ObjectProperty ;
-                                                                                            owl:inverseOf <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isDrawbackOf> ;
-                                                                                            rdfs:domain <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Method> ;
-                                                                                            rdfs:range <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Drawback> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasDrawback
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasDrawback> rdf:type owl:ObjectProperty ;
+                                                                                            owl:inverseOf <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isDrawbackOf> ;
+                                                                                            rdfs:domain <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Method> ;
+                                                                                            rdfs:range <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/inheritsBenefit
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/inheritsBenefit> rdf:type owl:ObjectProperty ;
-                                                                                                rdfs:domain <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/TypeOfAIMethodCombination> ;
-                                                                                                rdfs:range <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodBenefit> ;
-                                                                                                owl:propertyChainAxiom ( <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isComposedOf>
-                                                                                                                         <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/hasBenefit>
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/inheritsBenefit
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/inheritsBenefit> rdf:type owl:ObjectProperty ;
+                                                                                                rdfs:domain <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination> ;
+                                                                                                rdfs:range <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit> ;
+                                                                                                owl:propertyChainAxiom ( <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isComposedOf>
+                                                                                                                         <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasBenefit>
                                                                                                                        ) .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isAddressedBy
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isAddressedBy> rdf:type owl:ObjectProperty .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAddressedBy
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAddressedBy> rdf:type owl:ObjectProperty .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isAppliedTo
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isAppliedTo> rdf:type owl:ObjectProperty ;
-                                                                                            rdfs:domain <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/HybridIntelligentSystem> ;
-                                                                                            rdfs:range <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/ApplicationDomain> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAppliedTo
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAppliedTo> rdf:type owl:ObjectProperty ;
+                                                                                            rdfs:domain <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/HybridIntelligentSystem> ;
+                                                                                            rdfs:range <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ApplicationDomain> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isBenefitOf
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isBenefitOf> rdf:type owl:ObjectProperty ;
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isBenefitOf
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isBenefitOf> rdf:type owl:ObjectProperty ;
                                                                                             rdfs:subPropertyOf owl:topObjectProperty .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isComposedOf
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isComposedOf> rdf:type owl:ObjectProperty ;
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isComposedOf
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isComposedOf> rdf:type owl:ObjectProperty ;
                                                                                              rdfs:subPropertyOf owl:topObjectProperty .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isDrawbackOf
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isDrawbackOf> rdf:type owl:ObjectProperty ;
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isDrawbackOf
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isDrawbackOf> rdf:type owl:ObjectProperty ;
                                                                                              rdfs:subPropertyOf owl:topObjectProperty .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isUsedBy
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isUsedBy> rdf:type owl:ObjectProperty ;
-                                                                                         owl:inverseOf <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/uses> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isUsedBy
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isUsedBy> rdf:type owl:ObjectProperty ;
+                                                                                         owl:inverseOf <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/uses> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/originatesFrom
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/originatesFrom> rdf:type owl:ObjectProperty ;
-                                                                                               rdfs:domain <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethod> ;
-                                                                                               rdfs:range <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AISubfield> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/originatesFrom
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/originatesFrom> rdf:type owl:ObjectProperty ;
+                                                                                               rdfs:domain <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod> ;
+                                                                                               rdfs:range <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AISubfield> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/reliesOn
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/reliesOn> rdf:type owl:ObjectProperty ;
-                                                                                         rdfs:domain <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SoftwareSystem> ;
-                                                                                         rdfs:range <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Method> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/reliesOn
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/reliesOn> rdf:type owl:ObjectProperty ;
+                                                                                         rdfs:domain <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SoftwareSystem> ;
+                                                                                         rdfs:range <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Method> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/uses
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/uses> rdf:type owl:ObjectProperty ;
-                                                                                     rdfs:domain <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/HybridIntelligentSystem> ;
-                                                                                     rdfs:range <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/TypeOfAIMethodCombination> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/uses
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/uses> rdf:type owl:ObjectProperty ;
+                                                                                     rdfs:domain <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/HybridIntelligentSystem> ;
+                                                                                     rdfs:range <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination> .
 
 
 ###  http://www.w3.org/2002/07/owl#topObjectProperty
@@ -125,83 +125,83 @@ owl:topObjectProperty rdf:type owl:ObjectProperty ;
 #    Classes
 #################################################################
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethod
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethod> rdf:type owl:Class ;
-                                                                                         owl:equivalentClass [ owl:intersectionOf ( <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Method>
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod> rdf:type owl:Class ;
+                                                                                         owl:equivalentClass [ owl:intersectionOf ( <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Method>
                                                                                                                                     [ rdf:type owl:Restriction ;
-                                                                                                                                      owl:onProperty <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/originatesFrom> ;
-                                                                                                                                      owl:someValuesFrom <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AISubfield>
+                                                                                                                                      owl:onProperty <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/originatesFrom> ;
+                                                                                                                                      owl:someValuesFrom <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AISubfield>
                                                                                                                                     ]
                                                                                                                                   ) ;
                                                                                                                rdf:type owl:Class
                                                                                                              ] ;
-                                                                                         rdfs:subClassOf <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Method> .
+                                                                                         rdfs:subClassOf <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Method> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodBenefit
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodBenefit> rdf:type owl:Class ;
-                                                                                                owl:equivalentClass [ owl:intersectionOf ( <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Benefit>
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit> rdf:type owl:Class ;
+                                                                                                owl:equivalentClass [ owl:intersectionOf ( <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Benefit>
                                                                                                                                            [ rdf:type owl:Restriction ;
-                                                                                                                                             owl:onProperty <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isBenefitOf> ;
-                                                                                                                                             owl:someValuesFrom <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethod>
+                                                                                                                                             owl:onProperty <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isBenefitOf> ;
+                                                                                                                                             owl:someValuesFrom <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod>
                                                                                                                                            ]
                                                                                                                                          ) ;
                                                                                                                       rdf:type owl:Class
                                                                                                                     ] ;
-                                                                                                rdfs:subClassOf <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Benefit> ;
-                                                                                                owl:disjointWith <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodDrawback> ,
-                                                                                                                 <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Drawback> ,
-                                                                                                                 <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningMethodDrawback> ,
-                                                                                                                 <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralAIMethodDrawback> ,
-                                                                                                                 <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethodDrawback> .
+                                                                                                rdfs:subClassOf <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Benefit> ;
+                                                                                                owl:disjointWith <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback> ,
+                                                                                                                 <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback> ,
+                                                                                                                 <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethodDrawback> ,
+                                                                                                                 <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodDrawback> ,
+                                                                                                                 <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodDrawback> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodDrawback
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodDrawback> rdf:type owl:Class ;
-                                                                                                 owl:equivalentClass [ owl:intersectionOf ( <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Drawback>
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback> rdf:type owl:Class ;
+                                                                                                 owl:equivalentClass [ owl:intersectionOf ( <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback>
                                                                                                                                             [ rdf:type owl:Restriction ;
-                                                                                                                                              owl:onProperty <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isDrawbackOf> ;
-                                                                                                                                              owl:someValuesFrom <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethod>
+                                                                                                                                              owl:onProperty <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isDrawbackOf> ;
+                                                                                                                                              owl:someValuesFrom <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod>
                                                                                                                                             ]
                                                                                                                                           ) ;
                                                                                                                        rdf:type owl:Class
                                                                                                                      ] ;
-                                                                                                 rdfs:subClassOf <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Drawback> ;
-                                                                                                 owl:disjointWith <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Benefit> ,
-                                                                                                                  <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningMethodBenefit> ,
-                                                                                                                  <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralAIMethodBenefit> ,
-                                                                                                                  <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethodBenefit> .
+                                                                                                 rdfs:subClassOf <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback> ;
+                                                                                                 owl:disjointWith <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Benefit> ,
+                                                                                                                  <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethodBenefit> ,
+                                                                                                                  <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodBenefit> ,
+                                                                                                                  <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodBenefit> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AISubfield
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AISubfield> rdf:type owl:Class .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AISubfield
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AISubfield> rdf:type owl:Class .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/ApplicationDomain
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/ApplicationDomain> rdf:type owl:Class .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ApplicationDomain
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ApplicationDomain> rdf:type owl:Class .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Benefit
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Benefit> rdf:type owl:Class ;
-                                                                                        owl:disjointWith <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Drawback> ,
-                                                                                                         <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningMethodDrawback> ,
-                                                                                                         <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralAIMethodDrawback> ,
-                                                                                                         <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethodDrawback> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Benefit
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Benefit> rdf:type owl:Class ;
+                                                                                        owl:disjointWith <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback> ,
+                                                                                                         <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethodDrawback> ,
+                                                                                                         <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodDrawback> ,
+                                                                                                         <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodDrawback> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Drawback
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Drawback> rdf:type owl:Class ;
-                                                                                         owl:disjointWith <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningMethodBenefit> ,
-                                                                                                          <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralAIMethodBenefit> ,
-                                                                                                          <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethodBenefit> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback> rdf:type owl:Class ;
+                                                                                         owl:disjointWith <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethodBenefit> ,
+                                                                                                          <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodBenefit> ,
+                                                                                                          <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodBenefit> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/HybridIntelligentSystem
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/HybridIntelligentSystem> rdf:type owl:Class ;
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/HybridIntelligentSystem
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/HybridIntelligentSystem> rdf:type owl:Class ;
                                                                                                         owl:equivalentClass [ owl:intersectionOf ( <https://w3id.org/airo#AISystem>
                                                                                                                                                    [ rdf:type owl:Restriction ;
-                                                                                                                                                     owl:onProperty <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/uses> ;
-                                                                                                                                                     owl:someValuesFrom <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/TypeOfAIMethodCombination>
+                                                                                                                                                     owl:onProperty <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/uses> ;
+                                                                                                                                                     owl:someValuesFrom <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination>
                                                                                                                                                    ]
                                                                                                                                                  ) ;
                                                                                                                               rdf:type owl:Class
@@ -209,59 +209,59 @@ owl:topObjectProperty rdf:type owl:ObjectProperty ;
                                                                                                         rdfs:subClassOf <https://w3id.org/airo#AISystem> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningMethod
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningMethod> rdf:type owl:Class ;
-                                                                                                      owl:equivalentClass [ owl:intersectionOf ( <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethod>
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethod
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethod> rdf:type owl:Class ;
+                                                                                                      owl:equivalentClass [ owl:intersectionOf ( <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod>
                                                                                                                                                  [ rdf:type owl:Restriction ;
-                                                                                                                                                   owl:onProperty <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/originatesFrom> ;
-                                                                                                                                                   owl:hasValue <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearning>
+                                                                                                                                                   owl:onProperty <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/originatesFrom> ;
+                                                                                                                                                   owl:hasValue <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearning>
                                                                                                                                                  ]
                                                                                                                                                ) ;
                                                                                                                             rdf:type owl:Class
                                                                                                                           ] ;
-                                                                                                      rdfs:subClassOf <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethod> .
+                                                                                                      rdfs:subClassOf <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningMethodBenefit
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningMethodBenefit> rdf:type owl:Class ;
-                                                                                                             owl:equivalentClass [ owl:intersectionOf ( <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodBenefit>
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethodBenefit
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethodBenefit> rdf:type owl:Class ;
+                                                                                                             owl:equivalentClass [ owl:intersectionOf ( <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit>
                                                                                                                                                         [ rdf:type owl:Restriction ;
-                                                                                                                                                          owl:onProperty <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isBenefitOf> ;
-                                                                                                                                                          owl:someValuesFrom <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningMethod>
+                                                                                                                                                          owl:onProperty <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isBenefitOf> ;
+                                                                                                                                                          owl:someValuesFrom <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethod>
                                                                                                                                                         ]
                                                                                                                                                       ) ;
                                                                                                                                    rdf:type owl:Class
                                                                                                                                  ] ;
-                                                                                                             rdfs:subClassOf <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodBenefit> ;
-                                                                                                             owl:disjointWith <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningMethodDrawback> ,
-                                                                                                                              <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralAIMethodDrawback> ,
-                                                                                                                              <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethodBenefit> ,
-                                                                                                                              <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethodDrawback> .
+                                                                                                             rdfs:subClassOf <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit> ;
+                                                                                                             owl:disjointWith <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethodDrawback> ,
+                                                                                                                              <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodDrawback> ,
+                                                                                                                              <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodBenefit> ,
+                                                                                                                              <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodDrawback> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningMethodDrawback
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningMethodDrawback> rdf:type owl:Class ;
-                                                                                                              owl:equivalentClass [ owl:intersectionOf ( <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodDrawback>
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethodDrawback
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethodDrawback> rdf:type owl:Class ;
+                                                                                                              owl:equivalentClass [ owl:intersectionOf ( <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback>
                                                                                                                                                          [ rdf:type owl:Restriction ;
-                                                                                                                                                           owl:onProperty <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isDrawbackOf> ;
-                                                                                                                                                           owl:someValuesFrom <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningMethod>
+                                                                                                                                                           owl:onProperty <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isDrawbackOf> ;
+                                                                                                                                                           owl:someValuesFrom <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethod>
                                                                                                                                                          ]
                                                                                                                                                        ) ;
                                                                                                                                     rdf:type owl:Class
                                                                                                                                   ] ;
-                                                                                                              rdfs:subClassOf <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodDrawback> ;
-                                                                                                              owl:disjointWith <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralAIMethodBenefit> ,
-                                                                                                                               <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethodBenefit> ,
-                                                                                                                               <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethodDrawback> .
+                                                                                                              rdfs:subClassOf <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback> ;
+                                                                                                              owl:disjointWith <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodBenefit> ,
+                                                                                                                               <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodBenefit> ,
+                                                                                                                               <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodDrawback> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearning_NeuralCombination
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearning_NeuralCombination> rdf:type owl:Class ;
-                                                                                                                  owl:equivalentClass [ owl:intersectionOf ( <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/TypeOfAIMethodCombination>
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearning_NeuralCombination
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearning_NeuralCombination> rdf:type owl:Class ;
+                                                                                                                  owl:equivalentClass [ owl:intersectionOf ( <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination>
                                                                                                                                                              [ rdf:type owl:Restriction ;
-                                                                                                                                                               owl:onProperty <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isComposedOf> ;
-                                                                                                                                                               owl:someValuesFrom [ owl:intersectionOf ( <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningMethod>
-                                                                                                                                                                                                         <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralAIMethod>
+                                                                                                                                                               owl:onProperty <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isComposedOf> ;
+                                                                                                                                                               owl:someValuesFrom [ owl:intersectionOf ( <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethod>
+                                                                                                                                                                                                         <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethod>
                                                                                                                                                                                                        ) ;
                                                                                                                                                                                     rdf:type owl:Class
                                                                                                                                                                                   ]
@@ -269,16 +269,16 @@ owl:topObjectProperty rdf:type owl:ObjectProperty ;
                                                                                                                                                            ) ;
                                                                                                                                         rdf:type owl:Class
                                                                                                                                       ] ;
-                                                                                                                  rdfs:subClassOf <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/TypeOfAIMethodCombination> .
+                                                                                                                  rdfs:subClassOf <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearning_SymbolicCombination
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearning_SymbolicCombination> rdf:type owl:Class ;
-                                                                                                                    owl:equivalentClass [ owl:intersectionOf ( <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/TypeOfAIMethodCombination>
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearning_SymbolicCombination
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearning_SymbolicCombination> rdf:type owl:Class ;
+                                                                                                                    owl:equivalentClass [ owl:intersectionOf ( <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination>
                                                                                                                                                                [ rdf:type owl:Restriction ;
-                                                                                                                                                                 owl:onProperty <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isComposedOf> ;
-                                                                                                                                                                 owl:someValuesFrom [ owl:intersectionOf ( <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningMethod>
-                                                                                                                                                                                                           <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethod>
+                                                                                                                                                                 owl:onProperty <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isComposedOf> ;
+                                                                                                                                                                 owl:someValuesFrom [ owl:intersectionOf ( <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethod>
+                                                                                                                                                                                                           <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethod>
                                                                                                                                                                                                          ) ;
                                                                                                                                                                                       rdf:type owl:Class
                                                                                                                                                                                     ]
@@ -286,65 +286,65 @@ owl:topObjectProperty rdf:type owl:ObjectProperty ;
                                                                                                                                                              ) ;
                                                                                                                                           rdf:type owl:Class
                                                                                                                                         ] ;
-                                                                                                                    rdfs:subClassOf <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/TypeOfAIMethodCombination> .
+                                                                                                                    rdfs:subClassOf <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Method
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Method> rdf:type owl:Class .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Method
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Method> rdf:type owl:Class .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralAIMethod
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralAIMethod> rdf:type owl:Class ;
-                                                                                               owl:equivalentClass [ owl:intersectionOf ( <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethod>
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethod
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethod> rdf:type owl:Class ;
+                                                                                               owl:equivalentClass [ owl:intersectionOf ( <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod>
                                                                                                                                           [ rdf:type owl:Restriction ;
-                                                                                                                                            owl:onProperty <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/originatesFrom> ;
-                                                                                                                                            owl:hasValue <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/DeepLearning>
+                                                                                                                                            owl:onProperty <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/originatesFrom> ;
+                                                                                                                                            owl:hasValue <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/DeepLearning>
                                                                                                                                           ]
                                                                                                                                         ) ;
                                                                                                                      rdf:type owl:Class
                                                                                                                    ] ;
-                                                                                               rdfs:subClassOf <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethod> .
+                                                                                               rdfs:subClassOf <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralAIMethodBenefit
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralAIMethodBenefit> rdf:type owl:Class ;
-                                                                                                      owl:equivalentClass [ owl:intersectionOf ( <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodBenefit>
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodBenefit
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodBenefit> rdf:type owl:Class ;
+                                                                                                      owl:equivalentClass [ owl:intersectionOf ( <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit>
                                                                                                                                                  [ rdf:type owl:Restriction ;
-                                                                                                                                                   owl:onProperty <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isBenefitOf> ;
-                                                                                                                                                   owl:someValuesFrom <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralAIMethod>
+                                                                                                                                                   owl:onProperty <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isBenefitOf> ;
+                                                                                                                                                   owl:someValuesFrom <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethod>
                                                                                                                                                  ]
                                                                                                                                                ) ;
                                                                                                                             rdf:type owl:Class
                                                                                                                           ] ;
-                                                                                                      rdfs:subClassOf <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodBenefit> ;
-                                                                                                      owl:disjointWith <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralAIMethodDrawback> ,
-                                                                                                                       <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethodBenefit> ,
-                                                                                                                       <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethodDrawback> .
+                                                                                                      rdfs:subClassOf <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit> ;
+                                                                                                      owl:disjointWith <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodDrawback> ,
+                                                                                                                       <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodBenefit> ,
+                                                                                                                       <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodDrawback> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralAIMethodDrawback
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralAIMethodDrawback> rdf:type owl:Class ;
-                                                                                                       owl:equivalentClass [ owl:intersectionOf ( <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodDrawback>
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodDrawback
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodDrawback> rdf:type owl:Class ;
+                                                                                                       owl:equivalentClass [ owl:intersectionOf ( <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback>
                                                                                                                                                   [ rdf:type owl:Restriction ;
-                                                                                                                                                    owl:onProperty <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isDrawbackOf> ;
-                                                                                                                                                    owl:someValuesFrom <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralAIMethod>
+                                                                                                                                                    owl:onProperty <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isDrawbackOf> ;
+                                                                                                                                                    owl:someValuesFrom <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethod>
                                                                                                                                                   ]
                                                                                                                                                 ) ;
                                                                                                                              rdf:type owl:Class
                                                                                                                            ] ;
-                                                                                                       rdfs:subClassOf <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodDrawback> ;
-                                                                                                       owl:disjointWith <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethodBenefit> ,
-                                                                                                                        <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethodDrawback> .
+                                                                                                       rdfs:subClassOf <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback> ;
+                                                                                                       owl:disjointWith <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodBenefit> ,
+                                                                                                                        <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodDrawback> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Neural_MachineLearning_SymbolicCombination
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Neural_MachineLearning_SymbolicCombination> rdf:type owl:Class ;
-                                                                                                                           owl:equivalentClass [ owl:intersectionOf ( <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/TypeOfAIMethodCombination>
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Neural_MachineLearning_SymbolicCombination
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Neural_MachineLearning_SymbolicCombination> rdf:type owl:Class ;
+                                                                                                                           owl:equivalentClass [ owl:intersectionOf ( <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination>
                                                                                                                                                                       [ rdf:type owl:Restriction ;
-                                                                                                                                                                        owl:onProperty <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isComposedOf> ;
-                                                                                                                                                                        owl:someValuesFrom [ owl:intersectionOf ( <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningMethod>
-                                                                                                                                                                                                                  <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralAIMethod>
-                                                                                                                                                                                                                  <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethod>
+                                                                                                                                                                        owl:onProperty <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isComposedOf> ;
+                                                                                                                                                                        owl:someValuesFrom [ owl:intersectionOf ( <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethod>
+                                                                                                                                                                                                                  <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethod>
+                                                                                                                                                                                                                  <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethod>
                                                                                                                                                                                                                 ) ;
                                                                                                                                                                                              rdf:type owl:Class
                                                                                                                                                                                            ]
@@ -352,19 +352,19 @@ owl:topObjectProperty rdf:type owl:ObjectProperty ;
                                                                                                                                                                     ) ;
                                                                                                                                                  rdf:type owl:Class
                                                                                                                                                ] ;
-                                                                                                                           rdfs:subClassOf <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearning_NeuralCombination> ,
-                                                                                                                                           <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearning_SymbolicCombination> ,
-                                                                                                                                           <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Neural_SymbolicCombination> ,
-                                                                                                                                           <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/TypeOfAIMethodCombination> .
+                                                                                                                           rdfs:subClassOf <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearning_NeuralCombination> ,
+                                                                                                                                           <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearning_SymbolicCombination> ,
+                                                                                                                                           <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Neural_SymbolicCombination> ,
+                                                                                                                                           <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Neural_SymbolicCombination
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Neural_SymbolicCombination> rdf:type owl:Class ;
-                                                                                                           owl:equivalentClass [ owl:intersectionOf ( <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/TypeOfAIMethodCombination>
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Neural_SymbolicCombination
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Neural_SymbolicCombination> rdf:type owl:Class ;
+                                                                                                           owl:equivalentClass [ owl:intersectionOf ( <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination>
                                                                                                                                                       [ rdf:type owl:Restriction ;
-                                                                                                                                                        owl:onProperty <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isComposedOf> ;
-                                                                                                                                                        owl:someValuesFrom [ owl:intersectionOf ( <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralAIMethod>
-                                                                                                                                                                                                  <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethod>
+                                                                                                                                                        owl:onProperty <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isComposedOf> ;
+                                                                                                                                                        owl:someValuesFrom [ owl:intersectionOf ( <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethod>
+                                                                                                                                                                                                  <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethod>
                                                                                                                                                                                                 ) ;
                                                                                                                                                                              rdf:type owl:Class
                                                                                                                                                                            ]
@@ -372,69 +372,69 @@ owl:topObjectProperty rdf:type owl:ObjectProperty ;
                                                                                                                                                     ) ;
                                                                                                                                  rdf:type owl:Class
                                                                                                                                ] ;
-                                                                                                           rdfs:subClassOf <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/TypeOfAIMethodCombination> .
+                                                                                                           rdfs:subClassOf <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SoftwareSystem
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SoftwareSystem> rdf:type owl:Class ;
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SoftwareSystem
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SoftwareSystem> rdf:type owl:Class ;
                                                                                                owl:equivalentClass <https://w3id.org/vair#Software> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethod
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethod> rdf:type owl:Class ;
-                                                                                                 owl:equivalentClass [ owl:intersectionOf ( <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethod>
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethod
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethod> rdf:type owl:Class ;
+                                                                                                 owl:equivalentClass [ owl:intersectionOf ( <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod>
                                                                                                                                             [ rdf:type owl:Restriction ;
-                                                                                                                                              owl:onProperty <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/originatesFrom> ;
-                                                                                                                                              owl:hasValue <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAI>
+                                                                                                                                              owl:onProperty <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/originatesFrom> ;
+                                                                                                                                              owl:hasValue <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAI>
                                                                                                                                             ]
                                                                                                                                           ) ;
                                                                                                                        rdf:type owl:Class
                                                                                                                      ] ;
-                                                                                                 rdfs:subClassOf <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethod> .
+                                                                                                 rdfs:subClassOf <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethodBenefit
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethodBenefit> rdf:type owl:Class ;
-                                                                                                        owl:equivalentClass [ owl:intersectionOf ( <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodBenefit>
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodBenefit
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodBenefit> rdf:type owl:Class ;
+                                                                                                        owl:equivalentClass [ owl:intersectionOf ( <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit>
                                                                                                                                                    [ rdf:type owl:Restriction ;
-                                                                                                                                                     owl:onProperty <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isBenefitOf> ;
-                                                                                                                                                     owl:someValuesFrom <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethod>
+                                                                                                                                                     owl:onProperty <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isBenefitOf> ;
+                                                                                                                                                     owl:someValuesFrom <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethod>
                                                                                                                                                    ]
                                                                                                                                                  ) ;
                                                                                                                               rdf:type owl:Class
                                                                                                                             ] ;
-                                                                                                        rdfs:subClassOf <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodBenefit> ;
-                                                                                                        owl:disjointWith <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethodDrawback> .
+                                                                                                        rdfs:subClassOf <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit> ;
+                                                                                                        owl:disjointWith <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodDrawback> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethodDrawback
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethodDrawback> rdf:type owl:Class ;
-                                                                                                         owl:equivalentClass [ owl:intersectionOf ( <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodDrawback>
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodDrawback
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodDrawback> rdf:type owl:Class ;
+                                                                                                         owl:equivalentClass [ owl:intersectionOf ( <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback>
                                                                                                                                                     [ rdf:type owl:Restriction ;
-                                                                                                                                                      owl:onProperty <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isDrawbackOf> ;
-                                                                                                                                                      owl:someValuesFrom <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethod>
+                                                                                                                                                      owl:onProperty <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isDrawbackOf> ;
+                                                                                                                                                      owl:someValuesFrom <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethod>
                                                                                                                                                     ]
                                                                                                                                                   ) ;
                                                                                                                                rdf:type owl:Class
                                                                                                                              ] ;
-                                                                                                         rdfs:subClassOf <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodDrawback> .
+                                                                                                         rdfs:subClassOf <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/TypeOfAIMethodCombination
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/TypeOfAIMethodCombination> rdf:type owl:Class .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination> rdf:type owl:Class .
 
 
 ###  https://w3id.org/airo#AISystem
 <https://w3id.org/airo#AISystem> rdf:type owl:Class ;
-                                 owl:equivalentClass [ owl:intersectionOf ( <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SoftwareSystem>
+                                 owl:equivalentClass [ owl:intersectionOf ( <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SoftwareSystem>
                                                                             [ rdf:type owl:Restriction ;
-                                                                              owl:onProperty <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/reliesOn> ;
-                                                                              owl:someValuesFrom <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethod>
+                                                                              owl:onProperty <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/reliesOn> ;
+                                                                              owl:someValuesFrom <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod>
                                                                             ]
                                                                           ) ;
                                                        rdf:type owl:Class
                                                      ] ;
-                                 rdfs:subClassOf <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SoftwareSystem> ,
+                                 rdfs:subClassOf <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SoftwareSystem> ,
                                                  <https://w3id.org/vair#Software> .
 
 
@@ -452,237 +452,237 @@ owl:topObjectProperty rdf:type owl:ObjectProperty ;
 #    Individuals
 #################################################################
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/LowComputationalCost
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/LowComputationalCost> rdf:type owl:NamedIndividual ,
-                                                                        <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodBenefit> ,
-                                                                        <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Benefit> ,
-                                                                        <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethodBenefit> ;
-                                                               <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/addresses> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/HighComputationalCost> ;
-                                                               <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isBenefitOf> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/ExpertKnowledgeSystem> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/LowComputationalCost
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/LowComputationalCost> rdf:type owl:NamedIndividual ,
+                                                                        <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit> ,
+                                                                        <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Benefit> ,
+                                                                        <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodBenefit> ;
+                                                               <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/addresses> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/HighComputationalCost> ;
+                                                               <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isBenefitOf> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ExpertKnowledgeSystem> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Unscalability
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Unscalability> rdf:type owl:NamedIndividual ,
-                                                                 <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodDrawback> ,
-                                                                 <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Drawback> ,
-                                                                 <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethodDrawback> ;
-                                                        <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isAddressedBy> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Scalability> ;
-                                                        <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isDrawbackOf> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/ExpertKnowledgeSystem> ,
-                                                                                                                                                     <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/FuzzySystem> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Unscalability
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Unscalability> rdf:type owl:NamedIndividual ,
+                                                                 <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback> ,
+                                                                 <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback> ,
+                                                                 <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodDrawback> ;
+                                                        <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAddressedBy> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Scalability> ;
+                                                        <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isDrawbackOf> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ExpertKnowledgeSystem> ,
+                                                                                                                                                     <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FuzzySystem> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/DeepLearning
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/DeepLearning> rdf:type owl:NamedIndividual ,
-                                                                                                      <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AISubfield> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/DeepLearning
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/DeepLearning> rdf:type owl:NamedIndividual ,
+                                                                                                      <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AISubfield> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/ExpertKnowledgeSystem
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/ExpertKnowledgeSystem> rdf:type owl:NamedIndividual ,
-                                                                                                               <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethod> ,
-                                                                                                               <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Method> ,
-                                                                                                               <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethod> ;
-                                                                                                      <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/combinesInto> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningAlgorithm_ExpertKnowledgeSystem> ,
-                                                                                                                                                                                                   <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralNetwork_ExpertKnowledgeSystem> ;
-                                                                                                      <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/hasBenefit> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/#LowComputationalCost> ,
-                                                                                                                                                                                                 <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Interpretability> ;
-                                                                                                      <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/hasDrawback> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/#Unscalability> ,
-                                                                                                                                                                                                  <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Rigidness> ;
-                                                                                                      <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/originatesFrom> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAI> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ExpertKnowledgeSystem
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ExpertKnowledgeSystem> rdf:type owl:NamedIndividual ,
+                                                                                                               <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod> ,
+                                                                                                               <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Method> ,
+                                                                                                               <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethod> ;
+                                                                                                      <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/combinesInto> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningAlgorithm_ExpertKnowledgeSystem> ,
+                                                                                                                                                                                                   <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralNetwork_ExpertKnowledgeSystem> ;
+                                                                                                      <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasBenefit> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/#LowComputationalCost> ,
+                                                                                                                                                                                                 <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Interpretability> ;
+                                                                                                      <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasDrawback> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/#Unscalability> ,
+                                                                                                                                                                                                  <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Rigidness> ;
+                                                                                                      <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/originatesFrom> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAI> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Finance
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Finance> rdf:type owl:NamedIndividual ,
-                                                                                                 <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/ApplicationDomain> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Finance
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Finance> rdf:type owl:NamedIndividual ,
+                                                                                                 <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ApplicationDomain> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/FinancialHIS
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/FinancialHIS> rdf:type owl:NamedIndividual ,
-                                                                                                      <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/HybridIntelligentSystem> ,
-                                                                                                      <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SoftwareSystem> ,
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FinancialHIS
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FinancialHIS> rdf:type owl:NamedIndividual ,
+                                                                                                      <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/HybridIntelligentSystem> ,
+                                                                                                      <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SoftwareSystem> ,
                                                                                                       <https://w3id.org/airo#AISystem> ,
                                                                                                       <https://w3id.org/vair#Software> ;
-                                                                                             <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isAppliedTo> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Finance> ;
-                                                                                             <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/uses> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralNetwork_ExpertKnowledgeSystem> .
+                                                                                             <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAppliedTo> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Finance> ;
+                                                                                             <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/uses> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralNetwork_ExpertKnowledgeSystem> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/FuzzySystem
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/FuzzySystem> rdf:type owl:NamedIndividual ,
-                                                                                                     <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethod> ,
-                                                                                                     <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Method> ,
-                                                                                                     <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethod> ;
-                                                                                            <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/combinesInto> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/FuzzySystem_NeuralNetwork> ;
-                                                                                            <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/hasBenefit> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Interpretability> ;
-                                                                                            <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/hasDrawback> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/#Unscalability> ,
-                                                                                                                                                                                        <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Rigidness> ;
-                                                                                            <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/originatesFrom> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAI> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FuzzySystem
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FuzzySystem> rdf:type owl:NamedIndividual ,
+                                                                                                     <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod> ,
+                                                                                                     <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Method> ,
+                                                                                                     <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethod> ;
+                                                                                            <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/combinesInto> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FuzzySystem_NeuralNetwork> ;
+                                                                                            <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasBenefit> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Interpretability> ;
+                                                                                            <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasDrawback> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/#Unscalability> ,
+                                                                                                                                                                                        <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Rigidness> ;
+                                                                                            <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/originatesFrom> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAI> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/FuzzySystem_NeuralNetwork
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/FuzzySystem_NeuralNetwork> rdf:type owl:NamedIndividual ,
-                                                                                                                   <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Neural_SymbolicCombination> ,
-                                                                                                                   <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/TypeOfAIMethodCombination> ;
-                                                                                                          <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/inheritsBenefit> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Interpretability> ,
-                                                                                                                                                                                                          <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Robustness> ;
-                                                                                                          <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isComposedOf> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/FuzzySystem> ,
-                                                                                                                                                                                                       <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralNetwork> ;
-                                                                                                          <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isUsedBy> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/PollutionMonitoringHIS> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FuzzySystem_NeuralNetwork
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FuzzySystem_NeuralNetwork> rdf:type owl:NamedIndividual ,
+                                                                                                                   <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Neural_SymbolicCombination> ,
+                                                                                                                   <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination> ;
+                                                                                                          <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/inheritsBenefit> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Interpretability> ,
+                                                                                                                                                                                                          <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Robustness> ;
+                                                                                                          <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isComposedOf> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FuzzySystem> ,
+                                                                                                                                                                                                       <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralNetwork> ;
+                                                                                                          <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isUsedBy> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/PollutionMonitoringHIS> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/HighComputationalCost
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/HighComputationalCost> rdf:type owl:NamedIndividual ,
-                                                                                                               <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodDrawback> ,
-                                                                                                               <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Drawback> ,
-                                                                                                               <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningMethodDrawback> ;
-                                                                                                      <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isAddressedBy> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/#LowComputationalCost> ;
-                                                                                                      <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isDrawbackOf> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningAlgorithm> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/HighComputationalCost
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/HighComputationalCost> rdf:type owl:NamedIndividual ,
+                                                                                                               <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback> ,
+                                                                                                               <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback> ,
+                                                                                                               <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethodDrawback> ;
+                                                                                                      <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAddressedBy> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/#LowComputationalCost> ;
+                                                                                                      <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isDrawbackOf> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningAlgorithm> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Interpretability
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Interpretability> rdf:type owl:NamedIndividual ,
-                                                                                                          <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodBenefit> ,
-                                                                                                          <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Benefit> ,
-                                                                                                          <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethodBenefit> ;
-                                                                                                 <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/addresses> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Uninterpretability> ;
-                                                                                                 <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isBenefitOf> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/ExpertKnowledgeSystem> ,
-                                                                                                                                                                                             <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/FuzzySystem> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Interpretability
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Interpretability> rdf:type owl:NamedIndividual ,
+                                                                                                          <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit> ,
+                                                                                                          <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Benefit> ,
+                                                                                                          <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodBenefit> ;
+                                                                                                 <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/addresses> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Uninterpretability> ;
+                                                                                                 <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isBenefitOf> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ExpertKnowledgeSystem> ,
+                                                                                                                                                                                             <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FuzzySystem> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearning
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearning> rdf:type owl:NamedIndividual ,
-                                                                                                         <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AISubfield> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearning
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearning> rdf:type owl:NamedIndividual ,
+                                                                                                         <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AISubfield> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningAlgorithm
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningAlgorithm> rdf:type owl:NamedIndividual ,
-                                                                                                                  <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethod> ,
-                                                                                                                  <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningMethod> ,
-                                                                                                                  <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Method> ;
-                                                                                                         <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/combinesInto> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningAlgorithm_ExpertKnowledgeSystem> ;
-                                                                                                         <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/hasBenefit> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Scalability> ;
-                                                                                                         <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/hasDrawback> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/HighComputationalCost> ;
-                                                                                                         <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/originatesFrom> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearning> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningAlgorithm
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningAlgorithm> rdf:type owl:NamedIndividual ,
+                                                                                                                  <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod> ,
+                                                                                                                  <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethod> ,
+                                                                                                                  <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Method> ;
+                                                                                                         <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/combinesInto> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningAlgorithm_ExpertKnowledgeSystem> ;
+                                                                                                         <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasBenefit> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Scalability> ;
+                                                                                                         <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasDrawback> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/HighComputationalCost> ;
+                                                                                                         <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/originatesFrom> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearning> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningAlgorithm_ExpertKnowledgeSystem
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningAlgorithm_ExpertKnowledgeSystem> rdf:type owl:NamedIndividual ,
-                                                                                                                                        <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearning_SymbolicCombination> ,
-                                                                                                                                        <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/TypeOfAIMethodCombination> ;
-                                                                                                                               <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/inheritsBenefit> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/#LowComputationalCost> ,
-                                                                                                                                                                                                                               <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Interpretability> ,
-                                                                                                                                                                                                                               <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Scalability> ;
-                                                                                                                               <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isComposedOf> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/ExpertKnowledgeSystem> ,
-                                                                                                                                                                                                                            <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningAlgorithm> ;
-                                                                                                                               <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isUsedBy> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/WeatherForecastHIS> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningAlgorithm_ExpertKnowledgeSystem
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningAlgorithm_ExpertKnowledgeSystem> rdf:type owl:NamedIndividual ,
+                                                                                                                                        <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearning_SymbolicCombination> ,
+                                                                                                                                        <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination> ;
+                                                                                                                               <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/inheritsBenefit> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/#LowComputationalCost> ,
+                                                                                                                                                                                                                               <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Interpretability> ,
+                                                                                                                                                                                                                               <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Scalability> ;
+                                                                                                                               <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isComposedOf> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ExpertKnowledgeSystem> ,
+                                                                                                                                                                                                                            <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningAlgorithm> ;
+                                                                                                                               <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isUsedBy> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/WeatherForecastHIS> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Manufacturing
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Manufacturing> rdf:type owl:NamedIndividual ,
-                                                                                                       <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/ApplicationDomain> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Manufacturing
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Manufacturing> rdf:type owl:NamedIndividual ,
+                                                                                                       <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ApplicationDomain> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/ManufacturingHIS
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/ManufacturingHIS> rdf:type owl:NamedIndividual ,
-                                                                                                          <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/HybridIntelligentSystem> ,
-                                                                                                          <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SoftwareSystem> ,
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ManufacturingHIS
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ManufacturingHIS> rdf:type owl:NamedIndividual ,
+                                                                                                          <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/HybridIntelligentSystem> ,
+                                                                                                          <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SoftwareSystem> ,
                                                                                                           <https://w3id.org/airo#AISystem> ,
                                                                                                           <https://w3id.org/vair#Software> ;
-                                                                                                 <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isAppliedTo> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Manufacturing> .
+                                                                                                 <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAppliedTo> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Manufacturing> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralNetwork
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralNetwork> rdf:type owl:NamedIndividual ,
-                                                                                                       <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethod> ,
-                                                                                                       <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Method> ,
-                                                                                                       <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralAIMethod> ;
-                                                                                              <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/combinesInto> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/FuzzySystem_NeuralNetwork> ,
-                                                                                                                                                                                           <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralNetwork_ExpertKnowledgeSystem> ;
-                                                                                              <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/hasBenefit> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Robustness> ;
-                                                                                              <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/hasDrawback> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Uninterpretability> ;
-                                                                                              <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/originatesFrom> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/DeepLearning> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralNetwork
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralNetwork> rdf:type owl:NamedIndividual ,
+                                                                                                       <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod> ,
+                                                                                                       <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Method> ,
+                                                                                                       <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethod> ;
+                                                                                              <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/combinesInto> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FuzzySystem_NeuralNetwork> ,
+                                                                                                                                                                                           <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralNetwork_ExpertKnowledgeSystem> ;
+                                                                                              <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasBenefit> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Robustness> ;
+                                                                                              <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasDrawback> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Uninterpretability> ;
+                                                                                              <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/originatesFrom> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/DeepLearning> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralNetwork_ExpertKnowledgeSystem
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralNetwork_ExpertKnowledgeSystem> rdf:type owl:NamedIndividual ,
-                                                                                                                             <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Neural_SymbolicCombination> ,
-                                                                                                                             <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/TypeOfAIMethodCombination> ;
-                                                                                                                    <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/inheritsBenefit> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/#LowComputationalCost> ,
-                                                                                                                                                                                                                    <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Interpretability> ,
-                                                                                                                                                                                                                    <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Robustness> ;
-                                                                                                                    <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isComposedOf> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/ExpertKnowledgeSystem> ,
-                                                                                                                                                                                                                 <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralNetwork> ;
-                                                                                                                    <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isUsedBy> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/FinancialHIS> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralNetwork_ExpertKnowledgeSystem
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralNetwork_ExpertKnowledgeSystem> rdf:type owl:NamedIndividual ,
+                                                                                                                             <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Neural_SymbolicCombination> ,
+                                                                                                                             <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination> ;
+                                                                                                                    <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/inheritsBenefit> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/#LowComputationalCost> ,
+                                                                                                                                                                                                                    <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Interpretability> ,
+                                                                                                                                                                                                                    <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Robustness> ;
+                                                                                                                    <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isComposedOf> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ExpertKnowledgeSystem> ,
+                                                                                                                                                                                                                 <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralNetwork> ;
+                                                                                                                    <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isUsedBy> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FinancialHIS> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/PollutionMonitoring
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/PollutionMonitoring> rdf:type owl:NamedIndividual ,
-                                                                                                             <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/ApplicationDomain> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/PollutionMonitoring
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/PollutionMonitoring> rdf:type owl:NamedIndividual ,
+                                                                                                             <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ApplicationDomain> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/PollutionMonitoringHIS
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/PollutionMonitoringHIS> rdf:type owl:NamedIndividual ,
-                                                                                                                <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/HybridIntelligentSystem> ,
-                                                                                                                <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SoftwareSystem> ,
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/PollutionMonitoringHIS
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/PollutionMonitoringHIS> rdf:type owl:NamedIndividual ,
+                                                                                                                <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/HybridIntelligentSystem> ,
+                                                                                                                <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SoftwareSystem> ,
                                                                                                                 <https://w3id.org/airo#AISystem> ,
                                                                                                                 <https://w3id.org/vair#Software> ;
-                                                                                                       <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isAppliedTo> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/PollutionMonitoring> ;
-                                                                                                       <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/uses> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/FuzzySystem_NeuralNetwork> .
+                                                                                                       <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAppliedTo> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/PollutionMonitoring> ;
+                                                                                                       <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/uses> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FuzzySystem_NeuralNetwork> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Rigidness
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Rigidness> rdf:type owl:NamedIndividual ,
-                                                                                                   <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodDrawback> ,
-                                                                                                   <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Drawback> ,
-                                                                                                   <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAIMethodDrawback> ;
-                                                                                          <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isAddressedBy> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Robustness> ;
-                                                                                          <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isDrawbackOf> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/ExpertKnowledgeSystem> ,
-                                                                                                                                                                                       <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/FuzzySystem> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Rigidness
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Rigidness> rdf:type owl:NamedIndividual ,
+                                                                                                   <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback> ,
+                                                                                                   <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback> ,
+                                                                                                   <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodDrawback> ;
+                                                                                          <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAddressedBy> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Robustness> ;
+                                                                                          <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isDrawbackOf> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ExpertKnowledgeSystem> ,
+                                                                                                                                                                                       <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FuzzySystem> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Robustness
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Robustness> rdf:type owl:NamedIndividual ,
-                                                                                                    <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodBenefit> ,
-                                                                                                    <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Benefit> ,
-                                                                                                    <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralAIMethodBenefit> ;
-                                                                                           <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/addresses> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Rigidness> ;
-                                                                                           <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isBenefitOf> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralNetwork> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Robustness
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Robustness> rdf:type owl:NamedIndividual ,
+                                                                                                    <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit> ,
+                                                                                                    <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Benefit> ,
+                                                                                                    <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodBenefit> ;
+                                                                                           <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/addresses> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Rigidness> ;
+                                                                                           <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isBenefitOf> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralNetwork> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Scalability
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Scalability> rdf:type owl:NamedIndividual ,
-                                                                                                     <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodBenefit> ,
-                                                                                                     <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Benefit> ,
-                                                                                                     <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningMethodBenefit> ;
-                                                                                            <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/addresses> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/#Unscalability> ;
-                                                                                            <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isBenefitOf> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningAlgorithm> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Scalability
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Scalability> rdf:type owl:NamedIndividual ,
+                                                                                                     <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit> ,
+                                                                                                     <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Benefit> ,
+                                                                                                     <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethodBenefit> ;
+                                                                                            <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/addresses> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/#Unscalability> ;
+                                                                                            <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isBenefitOf> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningAlgorithm> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAI
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SymbolicAI> rdf:type owl:NamedIndividual ,
-                                                                                                    <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AISubfield> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAI
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAI> rdf:type owl:NamedIndividual ,
+                                                                                                    <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AISubfield> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Uninterpretability
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Uninterpretability> rdf:type owl:NamedIndividual ,
-                                                                                                            <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/AIMethodDrawback> ,
-                                                                                                            <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Drawback> ,
-                                                                                                            <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralAIMethodDrawback> ;
-                                                                                                   <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isAddressedBy> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/Interpretability> ;
-                                                                                                   <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isDrawbackOf> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/NeuralNetwork> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Uninterpretability
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Uninterpretability> rdf:type owl:NamedIndividual ,
+                                                                                                            <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback> ,
+                                                                                                            <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback> ,
+                                                                                                            <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodDrawback> ;
+                                                                                                   <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAddressedBy> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Interpretability> ;
+                                                                                                   <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isDrawbackOf> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralNetwork> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/WeatherForecast
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/WeatherForecast> rdf:type owl:NamedIndividual ,
-                                                                                                         <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/ApplicationDomain> .
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/WeatherForecast
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/WeatherForecast> rdf:type owl:NamedIndividual ,
+                                                                                                         <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ApplicationDomain> .
 
 
-###  https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/WeatherForecastHIS
-<https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/WeatherForecastHIS> rdf:type owl:NamedIndividual ,
-                                                                                                            <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/HybridIntelligentSystem> ,
-                                                                                                            <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/SoftwareSystem> ,
+###  https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/WeatherForecastHIS
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/WeatherForecastHIS> rdf:type owl:NamedIndividual ,
+                                                                                                            <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/HybridIntelligentSystem> ,
+                                                                                                            <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SoftwareSystem> ,
                                                                                                             <https://w3id.org/airo#AISystem> ,
                                                                                                             <https://w3id.org/vair#Software> ;
-                                                                                                   <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/isAppliedTo> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/WeatherForecast> ;
-                                                                                                   <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/uses> <https://github.com/AGoppen/HybridIntelligentSystemsOntology/HIS/MachineLearningAlgorithm_ExpertKnowledgeSystem> .
+                                                                                                   <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAppliedTo> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/WeatherForecast> ;
+                                                                                                   <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/uses> <https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningAlgorithm_ExpertKnowledgeSystem> .
 
 
 ###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
