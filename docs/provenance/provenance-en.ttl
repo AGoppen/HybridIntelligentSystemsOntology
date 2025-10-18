@@ -1,0 +1,17 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS.ttl> a prov:Entity;
+	 dc:title "Hybrid Intelligent Systems Ontology (HISO)";
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo :agent2;
+	 prov:wasAttributedTo :agent3;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:wasGeneratedAt "18/10/2025";
+.
+:agent0 a prov:Agent; foaf:name "Anastasiia GOPPEN".
+:agent1 a prov:Agent; foaf:name "Ivaylo MITOV".
+:agent2 a prov:Agent; foaf:name "Tadzhat MARHARIAN".
+:agent3 a prov:Agent; foaf:name "Lucie DIGOIN Capparros".
