@@ -3,7 +3,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Drawback"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback"
     }, {
       "@id" : "_:genid13"
     } ]
@@ -12,10 +12,10 @@
   "@id" : "_:genid13",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isDrawbackOf"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isDrawbackOf"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethod"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod"
   } ]
 }, {
   "@id" : "_:genid15",
@@ -31,17 +31,17 @@
   "@id" : "_:genid17",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/uses"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/uses"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/TypeOfAIMethodCombination"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination"
   } ]
 }, {
   "@id" : "_:genid19",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethod"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod"
     }, {
       "@id" : "_:genid21"
     } ]
@@ -50,17 +50,17 @@
   "@id" : "_:genid21",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearning"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearning"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/originatesFrom"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/originatesFrom"
   } ]
 }, {
   "@id" : "_:genid23",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodBenefit"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit"
     }, {
       "@id" : "_:genid25"
     } ]
@@ -69,17 +69,17 @@
   "@id" : "_:genid25",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isBenefitOf"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isBenefitOf"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningMethod"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethod"
   } ]
 }, {
   "@id" : "_:genid27",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodDrawback"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback"
     }, {
       "@id" : "_:genid29"
     } ]
@@ -88,17 +88,17 @@
   "@id" : "_:genid29",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isDrawbackOf"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isDrawbackOf"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningMethod"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethod"
   } ]
 }, {
   "@id" : "_:genid3",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Method"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Method"
     }, {
       "@id" : "_:genid5"
     } ]
@@ -108,7 +108,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/TypeOfAIMethodCombination"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination"
     }, {
       "@id" : "_:genid33"
     } ]
@@ -117,7 +117,7 @@
   "@id" : "_:genid33",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isComposedOf"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isComposedOf"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "_:genid34"
@@ -127,9 +127,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningMethod"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethod"
     }, {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralAIMethod"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethod"
     } ]
   } ]
 }, {
@@ -137,7 +137,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/TypeOfAIMethodCombination"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination"
     }, {
       "@id" : "_:genid40"
     } ]
@@ -146,7 +146,7 @@
   "@id" : "_:genid40",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isComposedOf"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isComposedOf"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "_:genid41"
@@ -156,9 +156,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningMethod"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethod"
     }, {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethod"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethod"
     } ]
   } ]
 }, {
@@ -166,7 +166,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethod"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod"
     }, {
       "@id" : "_:genid47"
     } ]
@@ -175,17 +175,17 @@
   "@id" : "_:genid47",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/DeepLearning"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/DeepLearning"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/originatesFrom"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/originatesFrom"
   } ]
 }, {
   "@id" : "_:genid49",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodBenefit"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit"
     }, {
       "@id" : "_:genid51"
     } ]
@@ -194,26 +194,26 @@
   "@id" : "_:genid5",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/originatesFrom"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/originatesFrom"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AISubfield"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AISubfield"
   } ]
 }, {
   "@id" : "_:genid51",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isBenefitOf"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isBenefitOf"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralAIMethod"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethod"
   } ]
 }, {
   "@id" : "_:genid53",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodDrawback"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback"
     }, {
       "@id" : "_:genid55"
     } ]
@@ -222,17 +222,17 @@
   "@id" : "_:genid55",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isDrawbackOf"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isDrawbackOf"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralAIMethod"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethod"
   } ]
 }, {
   "@id" : "_:genid57",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/TypeOfAIMethodCombination"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination"
     }, {
       "@id" : "_:genid59"
     } ]
@@ -241,7 +241,7 @@
   "@id" : "_:genid59",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isComposedOf"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isComposedOf"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "_:genid60"
@@ -251,11 +251,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningMethod"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethod"
     }, {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralAIMethod"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethod"
     }, {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethod"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethod"
     } ]
   } ]
 }, {
@@ -263,7 +263,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/TypeOfAIMethodCombination"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination"
     }, {
       "@id" : "_:genid67"
     } ]
@@ -272,7 +272,7 @@
   "@id" : "_:genid67",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isComposedOf"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isComposedOf"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "_:genid68"
@@ -282,9 +282,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralAIMethod"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethod"
     }, {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethod"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethod"
     } ]
   } ]
 }, {
@@ -292,7 +292,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Benefit"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Benefit"
     }, {
       "@id" : "_:genid9"
     } ]
@@ -302,7 +302,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethod"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod"
     }, {
       "@id" : "_:genid74"
     } ]
@@ -311,17 +311,17 @@
   "@id" : "_:genid74",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAI"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAI"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/originatesFrom"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/originatesFrom"
   } ]
 }, {
   "@id" : "_:genid76",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodBenefit"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit"
     }, {
       "@id" : "_:genid78"
     } ]
@@ -330,17 +330,17 @@
   "@id" : "_:genid78",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isBenefitOf"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isBenefitOf"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethod"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethod"
   } ]
 }, {
   "@id" : "_:genid80",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodDrawback"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback"
     }, {
       "@id" : "_:genid82"
     } ]
@@ -349,17 +349,17 @@
   "@id" : "_:genid82",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isDrawbackOf"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isDrawbackOf"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethod"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethod"
   } ]
 }, {
   "@id" : "_:genid84",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SoftwareSystem"
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SoftwareSystem"
     }, {
       "@id" : "_:genid86"
     } ]
@@ -368,809 +368,19 @@
   "@id" : "_:genid86",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/reliesOn"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/reliesOn"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethod"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod"
   } ]
 }, {
   "@id" : "_:genid9",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isBenefitOf"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isBenefitOf"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethod"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethod",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Method"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid3"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodBenefit",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Benefit"
-  } ],
-  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodDrawback"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Drawback"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningMethodDrawback"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralAIMethodDrawback"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethodDrawback"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid7"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodDrawback",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Drawback"
-  } ],
-  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Benefit"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningMethodBenefit"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralAIMethodBenefit"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethodBenefit"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid11"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AISubfield",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/ApplicationDomain",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Benefit",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Drawback"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningMethodDrawback"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralAIMethodDrawback"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethodDrawback"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/DeepLearning",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AISubfield"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Drawback",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningMethodBenefit"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralAIMethodBenefit"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethodBenefit"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/ExpertKnowledgeSystem",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/combinesInto" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningAlgorithm_ExpertKnowledgeSystem"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralNetwork_ExpertKnowledgeSystem"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/hasBenefit" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Interpretability"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/9/HISInferred#LowComputationalCost"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/hasDrawback" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Rigidness"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/9/HISInferred#Unscalability"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/originatesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAI"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethod"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Method"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethod"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Finance",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/ApplicationDomain"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/FinancialHIS",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isAppliedTo" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Finance"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/uses" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralNetwork_ExpertKnowledgeSystem"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/HybridIntelligentSystem"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SoftwareSystem"
-  }, {
-    "@id" : "https://w3id.org/airo#AISystem"
-  }, {
-    "@id" : "https://w3id.org/vair#Software"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/FuzzySystem",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/combinesInto" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/FuzzySystem_NeuralNetwork"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/hasBenefit" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Interpretability"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/hasDrawback" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Rigidness"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/9/HISInferred#Unscalability"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/originatesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAI"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethod"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Method"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethod"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/FuzzySystem_NeuralNetwork",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/inheritsBenefit" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Interpretability"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Robustness"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isComposedOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/FuzzySystem"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralNetwork"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isUsedBy" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/PollutionMonitoringHIS"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Neural_SymbolicCombination"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/TypeOfAIMethodCombination"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/HighComputationalCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isAddressedBy" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/9/HISInferred#LowComputationalCost"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isDrawbackOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningAlgorithm"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodDrawback"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Drawback"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningMethodDrawback"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/HybridIntelligentSystem",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/airo#AISystem"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid15"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Interpretability",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/addresses" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Uninterpretability"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isBenefitOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/ExpertKnowledgeSystem"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/FuzzySystem"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodBenefit"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Benefit"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethodBenefit"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearning",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AISubfield"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningAlgorithm",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/combinesInto" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningAlgorithm_ExpertKnowledgeSystem"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/hasBenefit" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Scalability"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/hasDrawback" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/HighComputationalCost"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/originatesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearning"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethod"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningMethod"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Method"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningAlgorithm_ExpertKnowledgeSystem",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/inheritsBenefit" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Interpretability"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Scalability"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/9/HISInferred#LowComputationalCost"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isComposedOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/ExpertKnowledgeSystem"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningAlgorithm"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isUsedBy" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/WeatherForecastHIS"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearning_SymbolicCombination"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/TypeOfAIMethodCombination"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningMethod",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethod"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid19"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningMethodBenefit",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodBenefit"
-  } ],
-  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningMethodDrawback"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralAIMethodDrawback"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethodBenefit"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethodDrawback"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid23"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningMethodDrawback",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodDrawback"
-  } ],
-  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralAIMethodBenefit"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethodBenefit"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethodDrawback"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid27"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearning_NeuralCombination",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/TypeOfAIMethodCombination"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid31"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearning_SymbolicCombination",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/TypeOfAIMethodCombination"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid38"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Manufacturing",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/ApplicationDomain"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/ManufacturingHIS",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isAppliedTo" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Manufacturing"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/HybridIntelligentSystem"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SoftwareSystem"
-  }, {
-    "@id" : "https://w3id.org/airo#AISystem"
-  }, {
-    "@id" : "https://w3id.org/vair#Software"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Method",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralAIMethod",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethod"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid45"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralAIMethodBenefit",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodBenefit"
-  } ],
-  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralAIMethodDrawback"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethodBenefit"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethodDrawback"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid49"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralAIMethodDrawback",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodDrawback"
-  } ],
-  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethodBenefit"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethodDrawback"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid53"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralNetwork",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/combinesInto" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/FuzzySystem_NeuralNetwork"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralNetwork_ExpertKnowledgeSystem"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/hasBenefit" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Robustness"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/hasDrawback" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Uninterpretability"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/originatesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/DeepLearning"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethod"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Method"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralAIMethod"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralNetwork_ExpertKnowledgeSystem",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/inheritsBenefit" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Interpretability"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Robustness"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/9/HISInferred#LowComputationalCost"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isComposedOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/ExpertKnowledgeSystem"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralNetwork"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isUsedBy" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/FinancialHIS"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Neural_SymbolicCombination"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/TypeOfAIMethodCombination"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Neural_MachineLearning_SymbolicCombination",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearning_NeuralCombination"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearning_SymbolicCombination"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Neural_SymbolicCombination"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/TypeOfAIMethodCombination"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid57"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Neural_SymbolicCombination",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/TypeOfAIMethodCombination"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid65"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/PollutionMonitoring",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/ApplicationDomain"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/PollutionMonitoringHIS",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isAppliedTo" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/PollutionMonitoring"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/uses" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/FuzzySystem_NeuralNetwork"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/HybridIntelligentSystem"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SoftwareSystem"
-  }, {
-    "@id" : "https://w3id.org/airo#AISystem"
-  }, {
-    "@id" : "https://w3id.org/vair#Software"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Rigidness",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isAddressedBy" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Robustness"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isDrawbackOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/ExpertKnowledgeSystem"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/FuzzySystem"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodDrawback"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Drawback"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethodDrawback"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Robustness",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/addresses" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Rigidness"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isBenefitOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralNetwork"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodBenefit"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Benefit"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralAIMethodBenefit"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Scalability",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/addresses" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/9/HISInferred#Unscalability"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isBenefitOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningAlgorithm"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodBenefit"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Benefit"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningMethodBenefit"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SoftwareSystem",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "https://w3id.org/vair#Software"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAI",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AISubfield"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethod",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethod"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid72"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethodBenefit",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodBenefit"
-  } ],
-  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethodDrawback"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid76"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethodDrawback",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodDrawback"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid80"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/TypeOfAIMethodCombination",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Uninterpretability",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isAddressedBy" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Interpretability"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isDrawbackOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralNetwork"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodDrawback"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Drawback"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/NeuralAIMethodDrawback"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/WeatherForecast",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/ApplicationDomain"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/WeatherForecastHIS",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isAppliedTo" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/WeatherForecast"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/uses" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/MachineLearningAlgorithm_ExpertKnowledgeSystem"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/HybridIntelligentSystem"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SoftwareSystem"
-  }, {
-    "@id" : "https://w3id.org/airo#AISystem"
-  }, {
-    "@id" : "https://w3id.org/vair#Software"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/addresses",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Benefit"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Drawback"
-  } ],
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isAddressedBy"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/combinesInto",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethod"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/TypeOfAIMethodCombination"
-  } ],
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isComposedOf"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/hasBenefit",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Method"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Benefit"
-  } ],
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isBenefitOf"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/hasDrawback",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Method"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Drawback"
-  } ],
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isDrawbackOf"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/inheritsBenefit",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/TypeOfAIMethodCombination"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodBenefit"
-  } ],
-  "http://www.w3.org/2002/07/owl#propertyChainAxiom" : [ {
-    "@list" : [ {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isComposedOf"
-    }, {
-      "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/hasBenefit"
-    } ]
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isAddressedBy",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isAppliedTo",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/HybridIntelligentSystem"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/ApplicationDomain"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isBenefitOf",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isComposedOf",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isDrawbackOf",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isUsedBy",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/uses"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/originatesFrom",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethod"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AISubfield"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/reliesOn",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SoftwareSystem"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Method"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/uses",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/HybridIntelligentSystem"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/TypeOfAIMethodCombination"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/9/HISInferred",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/9/HISInferred#LowComputationalCost",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/addresses" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/HighComputationalCost"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isBenefitOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/ExpertKnowledgeSystem"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodBenefit"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Benefit"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethodBenefit"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/9/HISInferred#Unscalability",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isAddressedBy" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Scalability"
-  } ],
-  "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/isDrawbackOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/ExpertKnowledgeSystem"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/FuzzySystem"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/AIMethodDrawback"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/Drawback"
-  }, {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SymbolicAIMethodDrawback"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod"
   } ]
 }, {
   "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
@@ -1188,10 +398,800 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Method"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid3"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Benefit"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethodDrawback"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodDrawback"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodDrawback"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Benefit"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethodBenefit"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodBenefit"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodBenefit"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AISubfield",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ApplicationDomain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Benefit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethodDrawback"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodDrawback"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodDrawback"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/DeepLearning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AISubfield"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethodBenefit"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodBenefit"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodBenefit"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ExpertKnowledgeSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Method"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethod"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/combinesInto" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningAlgorithm_ExpertKnowledgeSystem"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralNetwork_ExpertKnowledgeSystem"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasBenefit" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Interpretability"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/LowComputationalCost"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasDrawback" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Rigidness"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Unscalability"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/originatesFrom" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAI"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Finance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ApplicationDomain"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FinancialHIS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/HybridIntelligentSystem"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SoftwareSystem"
+  }, {
+    "@id" : "https://w3id.org/airo#AISystem"
+  }, {
+    "@id" : "https://w3id.org/vair#Software"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAppliedTo" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Finance"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/uses" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralNetwork_ExpertKnowledgeSystem"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FuzzySystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Method"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethod"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/combinesInto" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FuzzySystem_NeuralNetwork"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasBenefit" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Interpretability"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasDrawback" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Rigidness"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Unscalability"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/originatesFrom" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAI"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FuzzySystem_NeuralNetwork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Neural_SymbolicCombination"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/inheritsBenefit" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Interpretability"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Robustness"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isComposedOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FuzzySystem"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralNetwork"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isUsedBy" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/PollutionMonitoringHIS"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/HighComputationalCost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethodDrawback"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAddressedBy" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/LowComputationalCost"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isDrawbackOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningAlgorithm"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/HybridIntelligentSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/airo#AISystem"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid15"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Interpretability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Benefit"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodBenefit"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/addresses" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Uninterpretability"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isBenefitOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ExpertKnowledgeSystem"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FuzzySystem"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/LowComputationalCost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Benefit"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodBenefit"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/addresses" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/HighComputationalCost"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isBenefitOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ExpertKnowledgeSystem"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AISubfield"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningAlgorithm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethod"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Method"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/combinesInto" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningAlgorithm_ExpertKnowledgeSystem"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasBenefit" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Scalability"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasDrawback" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/HighComputationalCost"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/originatesFrom" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearning"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningAlgorithm_ExpertKnowledgeSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearning_SymbolicCombination"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/inheritsBenefit" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Interpretability"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/LowComputationalCost"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Scalability"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isComposedOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ExpertKnowledgeSystem"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningAlgorithm"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isUsedBy" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/WeatherForecastHIS"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid19"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethodBenefit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethodDrawback"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodDrawback"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodBenefit"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodDrawback"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid23"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethodDrawback",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodBenefit"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodBenefit"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodDrawback"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid27"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearning_NeuralCombination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid31"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearning_SymbolicCombination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid38"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Manufacturing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ApplicationDomain"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ManufacturingHIS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/HybridIntelligentSystem"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SoftwareSystem"
+  }, {
+    "@id" : "https://w3id.org/airo#AISystem"
+  }, {
+    "@id" : "https://w3id.org/vair#Software"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAppliedTo" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Manufacturing"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Method",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid45"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodBenefit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodDrawback"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodBenefit"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodDrawback"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid49"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodDrawback",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodBenefit"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodDrawback"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid53"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralNetwork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Method"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethod"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/combinesInto" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FuzzySystem_NeuralNetwork"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralNetwork_ExpertKnowledgeSystem"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasBenefit" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Robustness"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasDrawback" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Uninterpretability"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/originatesFrom" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/DeepLearning"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralNetwork_ExpertKnowledgeSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Neural_SymbolicCombination"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/inheritsBenefit" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Interpretability"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/LowComputationalCost"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Robustness"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isComposedOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ExpertKnowledgeSystem"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralNetwork"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isUsedBy" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FinancialHIS"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Neural_MachineLearning_SymbolicCombination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearning_NeuralCombination"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearning_SymbolicCombination"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Neural_SymbolicCombination"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid57"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Neural_SymbolicCombination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid65"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/PollutionMonitoring",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ApplicationDomain"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/PollutionMonitoringHIS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/HybridIntelligentSystem"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SoftwareSystem"
+  }, {
+    "@id" : "https://w3id.org/airo#AISystem"
+  }, {
+    "@id" : "https://w3id.org/vair#Software"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAppliedTo" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/PollutionMonitoring"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/uses" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FuzzySystem_NeuralNetwork"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Rigidness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodDrawback"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAddressedBy" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Robustness"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isDrawbackOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ExpertKnowledgeSystem"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FuzzySystem"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Robustness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Benefit"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodBenefit"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/addresses" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Rigidness"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isBenefitOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralNetwork"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Scalability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Benefit"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningMethodBenefit"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/addresses" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Unscalability"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isBenefitOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningAlgorithm"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SoftwareSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://w3id.org/vair#Software"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AISubfield"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid72"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodBenefit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodDrawback"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid76"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodDrawback",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid80"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Uninterpretability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralAIMethodDrawback"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAddressedBy" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Interpretability"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isDrawbackOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/NeuralNetwork"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Unscalability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodDrawback"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SymbolicAIMethodDrawback"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAddressedBy" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Scalability"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isDrawbackOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ExpertKnowledgeSystem"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/FuzzySystem"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/WeatherForecast",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ApplicationDomain"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/WeatherForecastHIS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/HybridIntelligentSystem"
+  }, {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SoftwareSystem"
+  }, {
+    "@id" : "https://w3id.org/airo#AISystem"
+  }, {
+    "@id" : "https://w3id.org/vair#Software"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAppliedTo" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/WeatherForecast"
+  } ],
+  "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/uses" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/MachineLearningAlgorithm_ExpertKnowledgeSystem"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/addresses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Benefit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAddressedBy"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/combinesInto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isComposedOf"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasBenefit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Method"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Benefit"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isBenefitOf"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasDrawback",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Method"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Drawback"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isDrawbackOf"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/inheritsBenefit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethodBenefit"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyChainAxiom" : [ {
+    "@list" : [ {
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isComposedOf"
+    }, {
+      "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/hasBenefit"
+    } ]
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAddressedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isAppliedTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/HybridIntelligentSystem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/ApplicationDomain"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isBenefitOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isComposedOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isDrawbackOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/isUsedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/uses"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/originatesFrom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AIMethod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/AISubfield"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/reliesOn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SoftwareSystem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/Method"
+  } ]
+}, {
+  "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/uses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/HybridIntelligentSystem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/TypeOfAIMethodCombination"
+  } ]
+}, {
   "@id" : "https://w3id.org/airo#AISystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/asgop/ontologies/2025/8/hybrid_intelligent_systems/SoftwareSystem"
+    "@id" : "https://agoppen.github.io/HybridIntelligentSystemsOntology/ontology/HIS/SoftwareSystem"
   }, {
     "@id" : "https://w3id.org/vair#Software"
   } ],
